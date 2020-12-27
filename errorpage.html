@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-12 mb-4"></div>
                     <div class="col-lg-4 col-sm-12 mb-4">
-                        <img src="assets/img/dini.png" alt="error image" width="100%">
+                        <img src="assets/img/dini.png" id="dino" alt="error image" width="100%">
                     </div>
                     <div class="col-lg-4 col-sm-12 mb-4"></div>
                 </div>
@@ -48,5 +48,21 @@
         </section>
         
     </body>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="vendor\scroll-reveal\scrollreveal.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+            window.sr = ScrollReveal();
+
+            sr.reveal('#dino',{
+                duration:2000,
+                origin:'right',
+                distance:'300px',
+                reset:true
+            });
+    </script>
+
 
 </html>
